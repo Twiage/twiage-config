@@ -6,7 +6,7 @@ const glob = require('glob');
 const fs = require('fs');
 const template = require('string-template');
 
-const configFolder = process.env.TURING_CONFIG_DIR || 'config';
+const configFolder = process.env.TWIAGE_CONFIG_DIR || 'config';
 
 function loadEnvSpecificConfig(dir) {
   const baseDir = path.join(process.cwd(), dir);
