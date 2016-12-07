@@ -3,10 +3,11 @@
 ##Twiage Common Configuration Library for JavaScript Projects
 #####Provides hierarchical configuration with files, environment variables and command-line arguments.
 
-## API
+## Overview
 
 _twiage-config_ will merge configs from several sources into one config.
 Therefore it will override configs from following sources from default (1) to most-specific (3):
+
 1. env variables
 2. default config
 3. process.env.ACTIVE_PROFILE specific config
@@ -33,7 +34,7 @@ To add config values from env variables you have to create a file called _custom
 
 ### get(configPath)
 
-To get a config value simple require _turing-config_ and call _get(configPath)_ inside the config dir.
+To get a config value simply require _turing-config_ and call _get(configPath)_ inside the config dir.
 
     const config = require('twiage-config');
 
