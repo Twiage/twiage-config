@@ -1,0 +1,35 @@
+{
+  "name": "twiage-config",
+  "version": "0.1.0",
+  "description": "Common configuration library for Twiage JS projects allow hierarchical configuration with files, environment variables and command-line arguments.",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Twiage/twiage-config.git"
+  },
+  "dependencies": {
+    "glob": "7.1.1",
+    "nconf": "0.8.4",
+    "string-template": "1.0.0"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "6.18.0",
+    "eslint-plugin-import": "2.2.0",
+    "eslint-plugin-react": "6.8.0",
+    "gulp": "3.9.1",
+    "gulp-eslint": "3.0.1"
+  },
+  "author": {
+    "name": "Matt Calhoun",
+    "email": "matt@twiage.com",
+    "url": "https://github.com/mcalhoun"
+  }
+}
