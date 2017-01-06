@@ -34,7 +34,7 @@ To add config values from env variables you have to create a file called _custom
 
 ### get(configPath)
 
-To get a config value simply require _turing-config_ and call _get(configPath)_ inside the config dir.
+To get a config value simply require _twiage-config_ and call _get(configPath)_ inside the config dir.
 
     const config = require('twiage-config');
 
