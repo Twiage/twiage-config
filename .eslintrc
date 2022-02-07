@@ -517,10 +517,6 @@
       "error",
       "always"
     ],
-    "strict": [
-      "error",
-      "safe"
-    ],
     "symbol-description": "error",
     "template-curly-spacing": [
       "error",

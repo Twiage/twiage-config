@@ -1,5 +1,3 @@
-'use strict';
-
 const path = require('path');
 const nconf = require('nconf');
 const glob = require('glob');
